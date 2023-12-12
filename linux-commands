@@ -1,0 +1,31 @@
+kubernates-command
+   # kubectl create -f <deploymentfile/svc/configmap/secret/pv/pvc>
+   # kubectl get deployment/svc/configmap/secret/pv/pvc/pods
+   # kubectl describe pod <pod name>
+   # kubectl get pod -o wide
+   # kubectl exec -it <pod_name> -- /bin/bash # go inside pod
+   # kubectl logs <pod_name>
+
+
+Docker:
+    # docker run -d mysql:latest  # create container in detach mode
+    # docker run -d --name mysql -p 3306:3306 mysql:latest
+    # docker images # show all images 
+    # docker ps # show all running container
+    # docker ps -a # show all stop and running container
+    # docker run <container-id> # running in foreground
+    # docker build -t <dockerhub_id/image_name>:tag . # it will create custom image from dockerfile
+    # docker run <image_name> # it will download image and create and run container.
+    # docker pull <image_name> # it will pull image
+    # docker exec -it <container_id> /bin/bash # go inside container
+    # docker run -d -v /opt/path:/var/lib/mysql mysql:latest # persistent volume
+    # docker run -it --name <container_name> <image_name> # Create container and go inside the container
+    # docker logs <container_name/id> # To check container logs.
+    # docker stop container_name_or_id  # stop the container 
+    # docker rm container_name_or_id# remive container
+    # docker rmi <image_id> # remove image
+   # docker inspect container_name_or_id  # Inspect Container Details
+
+
+     
+    
