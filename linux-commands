@@ -43,6 +43,10 @@ ram = free
 df = disk space usage 
 nproc= print the number processing untis avalible (cpu)
 free = used the memory in the system 
+set -x = debug mode for beging shell scripts
+ps -ef = check the prosess id 
+ps -ef | grep "amazon"
+
 
 
  
