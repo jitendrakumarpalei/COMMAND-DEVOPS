@@ -26,6 +26,11 @@ Docker:
     # docker rmi <image_id> # remove image
    # docker inspect container_name_or_id  # Inspect Container Details
 
+ShellScripts:
+# /bin/bash file.sh
+#./file.sh
+
+
 
      
     
