@@ -29,7 +29,11 @@ Docker:
 ShellScripts:
 # /bin/bash file.sh
 #./file.sh
-
+#!/bin/bash (or) sh.dash
+chmod 777 filename
+chmod +x filename 
+chmod u+x filename 
+ 
 
 
      
