@@ -35,7 +35,7 @@ cat /etc/passwd/
 chmod 777 filename
 chmod +x filename 
 chmod u+x filename 
-chmod= which user and which group and you 
+chmod= which user and which group and other 
 421= read write execute
 top command = which process we have running which process talking less memory and more memory.......
 cpu = nproc 
@@ -44,8 +44,15 @@ df = disk space usage
 nproc= print the number processing untis avalible (cpu)
 free = used the memory in the system 
 set -x = debug mode for beging shell scripts
-ps -ef = check the prosess id 
+ps -ef = check or print the all  prosess id 
 ps -ef | grep "amazon"
+vim test.sh 
+12
+11.
+1
+./test.sh | grep 1 
+output of the first command to the secound command ...
+
 
 
 
