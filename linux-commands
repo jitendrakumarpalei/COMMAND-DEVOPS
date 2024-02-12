@@ -44,6 +44,8 @@ df = disk space usage
 nproc= print the number processing untis avalible (cpu)
 free = used the memory in the system 
 set -x = debug mode for beging shell scripts
+set -e exit the script when there is an error ..
+set -o pipefail....
 ps -ef = check or print the all  prosess id 
 ps -ef | grep "amazon"
 vim test.sh 
@@ -52,6 +54,28 @@ vim test.sh
 1
 ./test.sh | grep 1 
 output of the first command to the secound command ...
+date | echo "this" 
+this is print ...date is a system deafult command ...
+
+Awk command use in specfic retrive in specific colum ..
+grep name test
+    retrive
+ps -ef | grep amazon | awk -f"" '{print $2}'
+
+cat logfile | grep error 
+logfile storage in google storage and amazon storge ,s3 
+curl command 
+retrive the informatin from internet ...
+curl https//with copy the logsfile....| grep error 
+postman =api request 
+python = request module
+wget command 
+wget _> download -> grep command on downloaded 
+download the logfile...
+
+
+
+
 
 
 
