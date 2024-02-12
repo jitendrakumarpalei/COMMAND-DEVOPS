@@ -60,7 +60,9 @@ this is print ...date is a system deafult command ...
 Awk command use in specfic retrive in specific colum ..
 grep name test
     retrive
-ps -ef | grep amazon | awk -f"" '{print $2}'
+ps -ef | grep amazon | awk -f""'{print $2}'
+find / slags = everything 
+find comand ..find the file
 
 cat logfile | grep error 
 logfile storage in google storage and amazon storge ,s3 
@@ -73,8 +75,30 @@ wget command
 wget _> download -> grep command on downloaded 
 download the logfile...
 
+vim ifelse.sh 
+a=4
+b=10
+if [expression]
+if [$a>$b]
+   then  sdfkkfkk
+      dfdggggkd
+then 
+   echo "a is greater than b"
+else ddkkkdkkdkd
+else 
+echo "b is greater than a"
+fi 
 
-
+#iterations ->for 
+for i in {1.100}; do echo $1: done 
+for
+do increment 
+done 
+trap command ...
+trap the signal ........
+trap "echo dont use the ctrl+c"sigint
+kill -9 java 
+sig .. kill command 
 
 
 
