@@ -174,11 +174,15 @@ it provides templatates to launch virtual machine
 EX= windows AMI,AMzon linux ami.ubuntuami,redhat ami,Mac ami
 security GROUP
 .............
-security group are used to allow incoming and outgoing trafic 
+security group are used to allow incoming and outgoing trafic
+Inbound rules will maintain incoming traffic rules.
+outbound rules will maintain outgoing traffic rules.
 windows---->RDP:3389
 LINUX------>ssh:22
 http-------> http:80
 https------->https:443
+tomcat------> 8080
+
 
 
 
