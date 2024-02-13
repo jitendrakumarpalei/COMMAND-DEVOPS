@@ -182,6 +182,20 @@ LINUX------>ssh:22
 http-------> http:80
 https------->https:443
 tomcat------> 8080
+KEY-PAIR
+.......
+key-pair is kind of lock secure our ec2 instance 
+key-pair is used to connect with ec2 instance securely
+key-pair combination of public -key and privatekey
+aws will store public key and it will provide private key for us
+using public key and private key we can connect with ec2 instance securely
+
+
+EC2=vm ----> KEY-PAIR
+       ---->security group
+       _---->vpc default
+       ----->EBS defult
+       ------> AMI defult
 
 
 
