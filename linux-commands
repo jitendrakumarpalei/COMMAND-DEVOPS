@@ -100,11 +100,64 @@ trap "echo dont use the ctrl+c"sigint
 kill -9 java 
 sig .. kill command 
 
+AWS(application archtecture} ...
+////////////////////////
+presntation tier = user interface (fronted) facebook.google..youtube
+application tier (backend ) webserver LOAD willbe increase in backend server ..
+data tier (database server) 
+load balancer= distribute the multyple server 
+(USER)CLIENT->INTERNET->LOADBALANCER->SERVERS
+              domain name-> IP-> = DNS mapping every project has DNS configuration
+ROUNDROBIN ALAGARYTHEM= 1st reqest 1st server 2nd requset 2ndserver to divert the traffic ALL the load balancer used in roundrobbin techinqby deafult
+sticktational alagarythem ..1st and 2nd and 3rd requset will go to 1st server that is called 
+
+why application server runing in the multyple servr becuse of = to handle the traffic
 
 
+clould computing =delivery and demanded it resources over the internet rent the software
+infrastructure= database , computers, servers,loadbalancing .dns
 
+datacenter = server 
 
- 
+CLOUD PROVIDER 
+.................
+aws(amazon) ,azure(microsoft),google (gcp),salesforce (salesforce crm)
+IBMcloud, oracle ,alibaba cloud, vm cloud...thease all are clould platform in the market
+CLOULD computing adavantage.
+...........................
+pay as you go= howmuch you use u will pay
+low cost 
+scalability=increse server scale up/down
+avalibility=24 hour avilble
+reliability=strong 
+security=100percent
+unlimited storage=
+backup= data save
+
+EC2= elasitc clould coumpte is nothing but create unlimtied vm
+s3 = unlimited storage 
+RDS = relatational data base service mysql
+dynomo DB.mango DB = no sql data base 
+route53= domain name mapping with ip addres by using route 53.u
+
+EBS = (elastic block store)if you store the data in ec2 
+linux gives you =8gb 
+windows = 30 gb 
+EBS= gives you 16 tb 
+VPC =VIRTUAL PRIVATE CLOULD
+all the service behind a private network is called VPC
+LBR = loadbalancing used in distribute into multyple server
+AUTOscale= loadbalancing purpose 
+IAM = identity access management (who can access which service)
+Beanstalk = whatevr the infrastructure setup mannualy by use beanstalk to automate
+clouldwatch =moniter puropose 
+lightsail = deploy applications easly 
+SNS = simple notification service 
+
+ON PREMISE vs CLOUD
+...................
+ONpremise is nothing but managed by people it is very costlyy
+
 
 
      
