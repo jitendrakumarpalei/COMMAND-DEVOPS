@@ -140,23 +140,47 @@ RDS = relatational data base service mysql
 dynomo DB.mango DB = no sql data base 
 route53= domain name mapping with ip addres by using route 53.u
 
-EBS = (elastic block store)if you store the data in ec2 
+EBS = (elastic block store)if you store the data in ec2
+by default EBS root volume will be attached to e ec2 instance 
 linux gives you =8gb 
 windows = 30 gb 
 EBS= gives you 16 tb 
-VPC =VIRTUAL PRIVATE CLOULD
-all the service behind a private network is called VPC
-LBR = loadbalancing used in distribute into multyple server
+NOTE: we can increase volume size based on demand
+VPC =(VIRTUAL PRIVATE CLOULD)
+............................
+vpc provides network for ec2 instance all the service behind a private network is called VPC
+to connect with EC2 instance we need network for that
+LBR
+........= loadbalancing used in distribute into multyple server
 AUTOscale= loadbalancing purpose 
+...............
 IAM = identity access management (who can access which service)
+.........
 Beanstalk = whatevr the infrastructure setup mannualy by use beanstalk to automate
+.........
 clouldwatch =moniter puropose 
+...........
 lightsail = deploy applications easly 
+.........
 SNS = simple notification service 
+......
 
 ON PREMISE vs CLOUD
 ...................
 ONpremise is nothing but managed by people it is very costlyy
+AMI = amazon machine image 
+.........
+it provides templatates to launch virtual machine 
+EX= windows AMI,AMzon linux ami.ubuntuami,redhat ami,Mac ami
+security GROUP
+.............
+security group are used to allow incoming and outgoing trafic 
+windows---->RDP:3389
+LINUX------>ssh:22
+http-------> http:80
+https------->https:443
+
+
 
 
 
