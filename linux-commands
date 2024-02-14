@@ -236,6 +236,9 @@ EC2=vm ----> KEY-PAIR
        _---->vpc default
        ----->EBS defult
        ------> AMI defult
+data center
+............
+avalibility zone is nothing but data center
 
 
 
