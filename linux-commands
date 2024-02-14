@@ -240,6 +240,49 @@ data center
 ............
 avalibility zone is nothing but data center
 
+EKS
+....
+eks stands for elastic k8s services
+eks is a fully managed aws service
+eks is the best place in k8s application becz security,reliability, and scalability
+eks can be intregated with other AWS services such as ELB,cloudwatch,Autoscaling,IAM,and vpc
+EKS makes it easy to run k8s controllplane across three avalibility zone in order to ensure highavalibility
+and it autometically detect and replaces unhelthy masters
+aws will have complete control over control plane. we dont have control on control plane
+we node to create worker nodes and attach to controll plane
+NOTE:we will create worker Nodes group using ASG group
+controll plane charges + worker nodde chareges (based on instance type& no of instance)
+
+
+PRE-Requisites
+.............
+AWS aacount with admin privilige
+instance to manage/access EKS cluster using kubectl
+AWS CLI access to use kubectl utility
+
+kubectl(k8s-client-vm) ----> control (aws EKS) plane----->node1 and node2
+STEPS TO CREATE EKS CLUSTER IN AWS 
+...................................
+STEP-1=create vpc using cloud formation (with below s3 url)
+URL...
+stack Name ..xyz
+.................
+STEP-2=crate IAM role in AWS
+.....................
+Entity type: AWS service
+select usecase as EKS-->EKS cluster
+role name --
+STEP-3=cretae EKS cluster using created VPC and IAM role
+cluster endpoint access: public & private
+step=4 cretate ec2 instance k8s_client_machine
+
+
+
+
+
+
+
+
 
 
 
