@@ -280,32 +280,74 @@ GIT bash COMMANDS
 ..............
 we are having several git commands to perform operetions with git repo
 git help ....
-git add .working directory
-git commit -m "xjjjdk" staging area 
+git add .working directory to staging area 
+.......
+git commit -m "xjjjdk" staging area to local repo 
+.............
 git push --local repo to remote repo 
+.........
 git init - it is used to create empty repository or re-initialize existing repo
+.........
 clone a repo - git clone
+..........
 create a branch - git branch branch name
+..........
 switch to branh - git checkout branch name 
+
 git status - this command will display status of current repository
 ...........
 staged files 
 ...........
+files which are added and they are ready to commit 
+thies file name will be green colour 
+
 un-staged files
 ...............
-un-tracked files -newly created files we need to stage them to commit 
-................
+modified files to the local  will be displayed here we need to stage these files to commit.
+these files will be displyaed in red colour
+un-tracked files   
+..............
+-newly created files we need to stage them to commit 
+these files will be displayed in red colour..
 
-git pull
-git reset 
-git log
+git pull .. to take the code from central repo
 rm
 git merge
 git rebase 
 git stash
+git add --a -> to add all files at a time 
+........
+git rm --cached *
+..........
+git rm -> this command is used to un-stage newly created files
+.....
+git rm --cached <file name>
+........
+git remote add <repo-url> (this requires only first time)
+..............
 
+git push -u origin master (this is used to move changes from local to central) 
+..........................
 
+git reset -> it is used to unstage a file
+.........
+synatx : git reset HEAD <file-name>
 
+checkout-UNDO
+............
+git checkout : it is used to discard changes done in a file 
+syntax: git checkout --<file name>
+git log-> to check commits history we will use git log command 
+........
+commit-id 
+author 
+timestamp 
+commit msg
+
+git clone 
+..........
+to take exisiting project from repository to local system we will use git clone command
+syntax : git clone <repo-URl>
 
 
 
