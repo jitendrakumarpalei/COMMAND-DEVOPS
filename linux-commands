@@ -276,16 +276,33 @@ STEP-3=cretae EKS cluster using created VPC and IAM role
 cluster endpoint access: public & private
 step=4 cretate ec2 instance k8s_client_machine
 
-GIT COMMANDS 
+GIT bash COMMANDS 
 ..............
-git add .
-git commit -m "xjjjdk"
-git pull
-git init 
+we are having several git commands to perform operetions with git repo
+git help ....
+git add .working directory
+git commit -m "xjjjdk" staging area 
+git push --local repo to remote repo 
+git init - it is used to create empty repository or re-initialize existing repo
 clone a repo - git clone
 create a branch - git branch branch name
 switch to branh - git checkout branch name 
+git status - this command will display status of current repository
+...........
+staged files 
+...........
+un-staged files
+...............
+un-tracked files -newly created files we need to stage them to commit 
+................
 
+git pull
+git reset 
+git log
+rm
+git merge
+git rebase 
+git stash
 
 
 
