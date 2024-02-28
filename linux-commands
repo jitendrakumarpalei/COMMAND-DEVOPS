@@ -276,6 +276,16 @@ STEP-3=cretae EKS cluster using created VPC and IAM role
 cluster endpoint access: public & private
 step=4 cretate ec2 instance k8s_client_machine
 
+GIT COMMANDS 
+..............
+git add .
+git commit -m "xjjjdk"
+git pull
+git init 
+clone a repo - git clone
+create a branch - git branch branch name
+switch to branh - git checkout branch name 
+
 
 
 
