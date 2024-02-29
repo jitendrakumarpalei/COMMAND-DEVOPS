@@ -373,9 +373,31 @@ git stash list
 git stash show 
 git stash drop...
 
+WHAT IS BRANCH in github
+..............
+when we create a git repository by defult it will be provide master branch 
+----> branch are nothing but code bases 
+----> we can create several branches in git repository
+-----> generally in git repository we will create branches like below 
+- master (defult)
+-devolp ----> on-going dev team, bug fixing team, prod support dev team 
+--feature --> story code only vertx code 
+--QA
+--UAT
+-Relese --> deploy into the code relese only 
+-prod ...
+BRANCH MERGE 
+............
+feature branches merge into the master branch  we use a cocept call pull request
 
+WORKFLOW 
+.........
+--> login into reposiotry
+---> create devlop branch from master branch
+---> clone devlop branch code 
+NOTE: 
+...... 
+if we exucute git clone <repo-url> it clones master branch code by defult
+-> if we want to clone specific branch code then we should execute below command
+--> git clone  -b <brnch name> <repo-url>
 
-
-
-     
-    
