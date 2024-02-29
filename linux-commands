@@ -349,9 +349,29 @@ git clone
 to take exisiting project from repository to local system we will use git clone command
 syntax : git clone <repo-URl>
 
+GIT STASH
+........
 
+it is used to record current changes and make working tree clean 
+git stash is a TEMPORARY storage ..
 
+working tree ----> his-12 manger assign a task 
+the middle man comes to picture git stash 
+the working tree will be clean ...
+after 12 are completed and ommit and  push it 3 pm.
 
+------> his 10  8am 
+
+-------> 12:12 pm 20 files modifies 
+
+git add --a
+git commit -m 
+git push
+git stash apply 
+git stash clear
+git stash list 
+git stash show 
+git stash drop...
 
 
 
