@@ -430,6 +430,18 @@ developers has working on same file same line no conflic occure in the repositor
 commit merge
 merge pull request 
 
+GIT PULL
+.........
+
+git pull command will get latest changes from central repository to local repo 
+(file transefering will happen here)
+
+GIT featch
+...........
+git fetch command that tells your local git to retrive the latest metadata info from 
+the original (yet doesnt do any file transefering) its more like just checking to see
+if there are any changes available.
+
 
 
 
