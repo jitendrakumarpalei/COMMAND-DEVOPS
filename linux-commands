@@ -123,6 +123,26 @@ trap "echo dont use the ctrl+c"sigint
 kill -9 java 
 .............
 sig .. kill command 
+ls -ltr ---> long list with timestamp and reverse 
+ln -s ----> 
+vim /etc/hostname
+hostname centos7.devops.in
+ls -lrt /etc/
+What command is used to find file type
+FILE<filepath>
+ln -s <orignalFilePath> <LinkFilePath> command is used to create soft link.
+true
+
+FILTER AND REDIRECTION COMMAND
+.................................
+GREP command to find the text from the files
+
+
+
+
+
+
+
 
 AWS(application archtecture} ...
 ////////////////////////
