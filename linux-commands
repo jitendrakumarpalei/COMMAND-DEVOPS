@@ -247,6 +247,70 @@ tail -4 /etc/passwd
 tail -4 /etc/gruop
 gruopadd devops
 usermod -aG devops ansible
+vim /etc/group
+id aws
+su -jitu
+lsof -u vagrant
+yum install lsof -y 
+losf -u (list all the open file)
+userdel -r jenkins
+ls /home/
+groupdel devops
+How to reset password of a user ?
+ans - root user can reset passwd username use only 
+user can reset own passwd running just passwd......
+How to switch between users in Linux cli?
+
+su -username
+Users password is stored(encrypted) in /etc/shadow file.
+
+true.........
+
+FILEPERMISSION
+..............
+text file,,link file,,...
+file permission may be using ls -l
+ls -l /bin/login
+four symbols are used when displaying permissions
+R W X NO PERMISSION
+R => read permission
+w => write perission
+x => exucute 
+
+- => filetype
+rw - => User
+--- => group
+--- => others
+
+mkdir /opt/devopsdir
+ls -l /opt/
+groupadd devops
+useradd ansible
+useradd jenkins
+useradd aws
+vim /etc/group  edit the group file directery ...
+id ansible 
+ls -ld /opt/devopsdir
+chown username:groupname /opt/devopsdir (owner ship change)
+chown -R useing recursible 
+chmod o-r /opt/devopsdir
+chmod o-w /opt/devopsdir
+chmod g+w /opt/dev (write permission to group)
+chmod 770 /opt/webdata (path)
+chmod +x filepath command will give execute permission to all users on the filepath.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
