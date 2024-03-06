@@ -317,6 +317,47 @@ What is the command to  download a file from internet or over a network.
 wget URL 
 curl URL -o outputfile....
 
+SERVICE
+,,,,,,,,
+How to check if a service is enabled?
+systemctl is -enabled servicename
+How to make sure the service is running and comes up after reboot.
+first command will start and secound will enable the service at the boot time 
+1. systemctl start servicename
+2. systemctl enable servicename 
+How to check all the process with their parent process id?
+ps -ef
+kill -9 PID command is to stop process forcefully and kill PID  is to stop process gracefully, child processes also will be stopped if parent process is stopped gracefully.
+
+Difference between Zombie & Orphan Process
+
+zombie is nothing but --> completed without waiting 
+orphan is nothing but ---> completd task is still its show any process table 
+
+ARCHIVE
+.......
+what is archive inlinux?
+Archive files are used to collect multiple data files together into a single file for easier portability and storage, or
+simply to compress files to use less storage space.
+
+ cd /var/log 
+tar -czvf (create compress verbose file)
+tar -czvf jenkins_06122020.tar.gz jenkins
+file tar -czvf jenkins_06122020.tar.gz (ganzib tar data)
+tar -xvzf extract
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
