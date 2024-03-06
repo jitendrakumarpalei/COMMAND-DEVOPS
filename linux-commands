@@ -299,6 +299,60 @@ chmod g+w /opt/dev (write permission to group)
 chmod 770 /opt/webdata (path)
 chmod +x filepath command will give execute permission to all users on the filepath.
 
+QUESTIONS
+'''''''''
+If normal user wants to run root commands and Admin cannot share root password as per compliance.
+What should you do?
+ask to admin to add your username suderfile ....
+
+How to install single package in RedHat & Debian OS?
+rpm -i packagename in redhat os
+dpkg -i packagename in debian os
+
+Where are yum repos and apt repos files located?
+/etc/yum.repos.d/ for yum
+/etc/apt/sources.list & /etc/apt/sources.list.d for apt
+
+What is the command to  download a file from internet or over a network.
+wget URL 
+curl URL -o outputfile....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
