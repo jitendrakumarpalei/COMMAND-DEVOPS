@@ -136,6 +136,148 @@ true
 FILTER AND REDIRECTION COMMAND
 .................................
 GREP command to find the text from the files
+uptime 
+cat /etc/passwd
+uptime > /tmp/sysinfo.txt
+cat /tmp/sysinfo.txt (output the files)
+ls 
+ls > /tmp/sysinfo.txt
+uptime >> /tmp/sysinfo.txt (updended)
+cat > /tmp/sysinfo.txt (see the other content)
+free -m (memory utilization)
+df -h (this is goona show you hard disk partion)
+echo "good morning"
+echo "############" > /tmp/sysyinfo.txt
+date > /tmp/sysinfo.txt
+echo "###########" >> /tmp/sysinfo.txt
+uptime >> /tmp/sysinfo.txt (output the command)
+echo "###########" >> /tmp/sysinfo.txt
+free -m >> /tmp/sysinfo.txt (output the command)
+echo "###########" >> /tmp/sysinfo.txt
+df -h >> /tmp/sysinfo.txt (output the command)
+echo "###########" >> /tmp/sysinfo.txt
+cat /tmp/sysinfo.txt (content of the file)
+this is called output redirction...........
+
+/dev/null (doesnt content anything)
+yum install vim -y (lot of output)
+yum install vim -y > /dev/null 
+cat /dev/null (there is nothing is there)
+cat /dev/null > /tmp/sysinfo.txt (nothing file)
+cat /tmp/sysinfo.txt (every thing is wiftout clean)
+free -m > /dev/null
+freeeee -m > /dev/null 
+freeeee -m 2>> /tmp//error.log (2 means stsndard error)
+free -m 1>> /tmp//error.log
+(1 output by defult)
+cat /tmp/error.log
+if you any kind of redirediction use to (&&)
+free -m &>> /tmp//error.log
+freesdsd -m &>> /tmp//error.log
+cat /tmp/error.log
+
+LOG FILE
+..........
+cd /var/log/
+ls
+wc -l /etc/passwd (counting lines)
+wc -l < /etc/passwd 
+cd /etc
+ls (count no of files)
+ls | wc -l (ls command will be generated the output this input goes to write hand side )
+ls | grep host
+
+tail -20 /var/log/messages | grep -i vagrant
+free -m | grep mem
+free -m | grep ram
+ls -l | tail
+ls -l | head
+find /etc -name host*
+
+locate --> find 
+updatedb   
+
+QUESTIONS
+.........
+output redirection symbol... (>)
+input redirection symbol ....(<)
+how to append output redirection to a file 
+<< filepath
+is to append starnd output to a file
+false
+is to redirect & append all the output to file (output& error both)
+
+
+USER & GROUP
+............
+# users and groups are used to control access to files and resources
+# users login to the system by supplying their username and password
+# Every file on the system is owned and group affilation and can only access the resou
+its owner or group can access
+# Every user of the system is assigned A unique uesr ID number (the UID)
+# Users name and UID are stored in /etc/passwd
+# Users are assigned a home directory and a program that is run when they login
+# Users cannot read ,write or execute each others files without permission..
+
+TYPE OF USER
+.............
+type   EXAMPLE  userID   GroupID      HomeDIR         SHEll
+....  .......   ......   .......       .......         ....
+ROOT   root     0           0            /root          /bin/bash
+regular  jitu   1000 to 6000) (1000 to 6000 /home/      /bin/bash
+                                           username 
+SERVICE   FTP,SSH 1 to 999     1to 999    /var/ftp etc   /sbin/nologin
+          apache 
+ 
+
+cat /etc/passwd 
+head -1 /etc/passwd
+root:X:0:0:root:/root:/bin/bash
+user shadow userid groupid comment homedirectoryof root user loginshell..
+
+shadow file will be passwd incrypted...
+grep vagrant /etc/passwd 
+id (user name)
+id vagrant...
+useradd ansible
+useradd jenkins
+useradd aws
+useradd linux
+tail -4 /etc/passwd
+tail -4 /etc/gruop
+gruopadd devops
+usermod -aG devops ansible
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
