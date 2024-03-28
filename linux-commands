@@ -346,16 +346,58 @@ tar -czvf jenkins_06122020.tar.gz jenkins
 file tar -czvf jenkins_06122020.tar.gz (ganzib tar data)
 tar -xvzf extract
 
+NETWORK
+,.......
+ROUTER --> A ROUTER recives and send data on computer networks. router are sometimes confused 
+with network hubs,modems, or networkswwitches However routers can combin the multyple networks 
+that is final resources........
+
+SUBNET
+///////
+subnet for database server 
+subnet for webserver 
+subnet for project ...
+IPADDRESS
+.........
+192.168.100.1 ----> 1ST octet 2nd octtet 3rd octet 4th octet
+8bits+8+8=32 bits.........
+every octet start from ZERO......
+0.0.0.0--255.255.255.255
+00000000.00000000.00000000.00000000.(0.0.0.0)
+11111111.11111111.11111111.11111111(255.255.255.255)
+
+public IP------> for clould provider 
+PROTOCOL
+///////
+in the networking and communictions area a protocol is the formal specification 
+that defines the procedures that must be follwed when transmitting or reciveing 
+data protocol define the format 
+timing sequence and error checking used on the network......
 
 
+OSI LAYER MODEL
+///////////////
+Application layer ....>  telnet ,ftp ,dhcp ,tftp ,http ,smtp ,dns, snmp
+presentation layer ....>
+session layer .....> 
+transport layer ....> tcp transport udp
+network layer ......>internet ICMP ARP RARP IP
+physical layer ......> Network interface
+datalink layer.......
 
+NETWORK COMMANDS   
+................
+ping ipAdress ...........
 
+tracert www.google.in
 
+vagrant ssh web01..
 
+netstat -antp--->showing all the TCP open port/.........
 
-
-
-
+ps -ef | grep apache2 
+netstat -antp | grep 3336 
+ss -tunlp ..
 
 
 
