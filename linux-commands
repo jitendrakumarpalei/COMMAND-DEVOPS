@@ -398,9 +398,31 @@ netstat -antp--->showing all the TCP open port/.........
 ps -ef | grep apache2 
 netstat -antp | grep 3336 
 ss -tunlp ..
+dig www.google.com ---->To make a DNS lookup: Enter domain name (trailing 
+dot will be auto-appended). Lookup and enjoy the output.
+
+nslookup www.google.com ----> 
+route -n 
+The route command is the interface used to access the Linux kernel's routing tables. The route command operates in three modes: display, add, and delete. When used to add or delete routes from the routing table, 
+
+its use is generally limited to adding and removing static route entries.
+
+ARP
+//////
+The arp command displays and modifies the Internet-to-adapter address translation tables used by the Address in Networks and communication management. 
+The arp command displays the current ARP entry for the host specified by the HostName variable.
+MTR ---> 
+.......
+The mtr(my traceroute) command is a robust network diagnostic tool combining the functionality of the ping and traceroute commands
 
 
 
+
+
+
+
+
+ 
 
 
 
