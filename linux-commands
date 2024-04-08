@@ -414,8 +414,16 @@ The arp command displays the current ARP entry for the host specified by the Hos
 MTR ---> 
 .......
 The mtr(my traceroute) command is a robust network diagnostic tool combining the functionality of the ping and traceroute commands
+VARIABLE
+/////////
+$0 is the name of the script.
+$1-$9 are the command line arguments.
+What is the way to print exit status of last command?
+echo$?
+\$ ---> special meaning of character
 
-
+() -----> pranthisis........
+{} -----> collibrase .......
 
 
 
