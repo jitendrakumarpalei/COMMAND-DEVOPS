@@ -871,8 +871,7 @@ validate---> validate the project is correct and all necessary information is av
 
 compile---> compile the source code project
 test
-package--> distrubted format such as jar
-verify-->run any checks on results of intregration tests to ensure quality criteria 
+package--> distrubted format such as jarverify-->run any checks on results of intregration tests to ensure quality criteria 
 install--> install the package into local repositry for use as a dependency in other projects locally
 deploy---> done the build enviornment copies the final packages to the remote repo
 sharings with other devolpers and projects 
@@ -883,8 +882,19 @@ version---> v2
 build or artifact--> vprofile-v2.war 
 
 {}---> colli base
-()---> promethiios 
+()---> promethiios
 
+1st install --> sudo apt install openjdk-11-y
+then install ---> mvn sudo apt install maven-y
+google --> maven archive seardch
+copy link address 
+then extratect ...> tar xzvf apachen-maven-3.9.3-bin.tar.gz
+ls 
+ apache-maven-3.9.3/bin/mvn -version
+mvn 
+ apache-maven-3.9.3/bin/mvn -version
+sudo mv apache-maven-3.9.3/opt/
+/opt/apache-maven-3.9.3/bin/mvn -version
 
 
 
