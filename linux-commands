@@ -877,9 +877,13 @@ install--> install the package into local repositry for use as a dependency in o
 deploy---> done the build enviornment copies the final packages to the remote repo
 sharings with other devolpers and projects 
 google it build lifecycle maven...
+ artifact--->Vprofile
+packing-->war
+version---> v2 
+build or artifact--> vprofile-v2.war 
 
-
-
+{}---> colli base
+()---> promethiios 
 
 
 
