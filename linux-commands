@@ -866,7 +866,7 @@ gradel--> groovy format
 nant--> windows,.net platform
 
 MAVEN phases 
-...........
+..............
 validate---> validate the project is correct and all necessary information is avalibale
 
 compile---> compile the source code project
