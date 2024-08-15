@@ -833,7 +833,51 @@ GIT featch
 ...........
 git fetch command that tells your local git to retrive the latest metadata info from 
 the original (yet doesnt do any file transefering) its more like just checking to see
-if there are any changes available.
+if there are any changes available.  
+
+
+MAVEN
+//////
+contents 
+1.Build process
+2.build tools
+3.what is maven
+4.maven phases
+5.maven installation
+6.pom.xml file
+7.maven commands 
+8.maven versions
+
+build process
+..............
+source code--->>java,dotnet, etc jenerated is nothing but keep commiting changes to the source code mobile aap,web application
+compile the code---->>test the code this is specially compile language like java,dotnet.c++,csharp
+test--->> it wil work then will unit/intregation 
+package---> out put packages in archive war,jar,exe,(windows)msi,zip etc
+health checks---> code analysis findbugs security vernbility check code
+
+
+bild tools =automates build process
+...................................
+ant,maven -java -- build file -xml format
+msbuild-> microsoft build engine is a platform for building applictions
+
+gradel--> groovy format
+nant--> windows,.net platform
+
+MAVEN phases 
+...........
+validate---> validate the project is correct and all necessary information is avalibale
+
+compile---> compile the source code project
+test
+package--> distrubted format such as jar
+verify-->run any checks on results of intregration tests to ensure quality criteria 
+install--> install the package into local repositry for use as a dependency in other projects locally
+deploy---> done the build enviornment copies the final packages to the remote repo
+sharings with other devolpers and projects 
+google it build lifecycle maven...
+
 
 
 
