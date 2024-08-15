@@ -895,6 +895,20 @@ mvn
  apache-maven-3.9.3/bin/mvn -version
 sudo mv apache-maven-3.9.3/opt/
 /opt/apache-maven-3.9.3/bin/mvn -version
+git clone 
+mvn validate 
+mvn test..
+ls 
+target folder 
+exit 
+mvn clean -->remove all things
+mvn install 
+ls /home/ubuntu/.m2 
+ls /home/ubuntu/.m2/repository/---> all dependcyy bydefult store in ubunttu (localhome)
+rm -rf /home/ubuntu/.m2/repository/*
+
+
+
 
 
 
