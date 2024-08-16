@@ -681,7 +681,14 @@ very exxpensive 4th layer open systems (osi) model \
 it can handle the millions of request per secound 
 3. CLASSIC LOAD BALANCER
 the route traffic based on either application or network level information (0si)
-
+////////////
+CLOUD WATCH
+///////////
+monitor perfomance of aws envirnment -standard infrastructre metrics
+metrics allows---> ebs,ec2,elb,route53,health checks rds amazons3 cloud front etc.........
+alaram will help sns email notification 
+EC2 instance--->create alaram-->amazon cloldwatch--> alaram--> alaram triggerd ---> email notifications (SNS)
+genertic metrics--> collective matrics--> cpu utiliation 
 
 GIT bash COMMANDS 
 ..............
