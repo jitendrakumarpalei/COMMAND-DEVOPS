@@ -573,6 +573,7 @@ route53= domain name mapping with ip addres by using route 53.u
 .........
 
 EBS = (elastic block store)if you store the data in ec2
+
 ......
 by default EBS root volume will be attached to e ec2 instance 
 linux gives you =8gb 
@@ -668,6 +669,19 @@ role name --
 STEP-3=cretae EKS cluster using created VPC and IAM role
 cluster endpoint access: public & private
 step=4 cretate ec2 instance k8s_client_machine
+///////////////////////////
+Elb (elastik load balancer)
+////////////////////////////
+distributed incoming application or network traffic across multyple targets such as amazon ec2 instances,containers,ip adress
+in multyple availble zone..
+1..APPLICATION LOAD BALANCER
+web application https,http 7th layr
+2. NETWORK LOAD BALANCER 
+very exxpensive 4th layer open systems (osi) model \
+it can handle the millions of request per secound 
+3. CLASSIC LOAD BALANCER
+the route traffic based on either application or network level information (0si)
+
 
 GIT bash COMMANDS 
 ..............
