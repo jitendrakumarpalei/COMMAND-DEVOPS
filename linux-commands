@@ -564,6 +564,18 @@ EC2= elasitc clould coumpte is nothing but create unlimtied vm
 ...........
 s3 = unlimited storage 
 .......
+amazons3-> bucket>>>>folder>>>object>>>public acess
+s3 standard-purpose storage of frequently acceseddata fast access & object replication in multy zone
+s3 IA---> interfrequent access --> long lived but less requently accesd data slow access object replication in multy AZ
+s3 one zone-IA --> slow access no object replication 
+s3 intelligent tiering--->> autometically moves data to most cost effective tier..
+s3 glasser ...> slow dat archive
+s3 glacier--> lowest cost 12 hour
+s3 charges--->> storge,request,tiers,data transfer,region replications..
+s3 is a global services
+s3 enable --> recover the data
+object bydeafult private
+
 RDS = relatational data base service mysql
 .........
 dynomo DB.mango DB = no sql data base 
