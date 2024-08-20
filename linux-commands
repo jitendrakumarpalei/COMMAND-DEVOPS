@@ -351,6 +351,26 @@ NETWORK
 ROUTER --> A ROUTER recives and send data on computer networks. router are sometimes confused 
 with network hubs,modems, or networkswwitches However routers can combin the multyple networks 
 that is final resources........
+////////////////////
+subnet mask: does to network range.
+.............
+1st ip address ----> network ip
+192.168.0.0
+192.168.0.1
+192.168.0.2
+192.168.0.254
+192.168.0.255--->
+last ip address ----> Broad cast 
+network range... 172.20.0./16
+subnets...> 172.20.1.0/24
+cidr...
+...........
+255.0.0.0
+1111111.00000000.0000000.00000000
+255.255.0.0.
+1111111.1111111.0000000.0000000.00000000
+
+ 
 
 SUBNET
 ///////
@@ -700,8 +720,11 @@ monitor perfomance of aws envirnment -standard infrastructre metrics
 metrics allows---> ebs,ec2,elb,route53,health checks rds amazons3 cloud front etc.........
 alaram will help sns email notification 
 EC2 instance--->create alaram-->amazon cloldwatch--> alaram--> alaram triggerd ---> email notifications (SNS)
-genertic metrics--> collective matrics--> cpu utiliation 
+genertic metrics--> collective matrics--> cpu utiliation
+///////////
+subnet mask: does to network range.
 
+///////////
 GIT bash COMMANDS 
 ..............
 we are having several git commands to perform operetions with git repo
