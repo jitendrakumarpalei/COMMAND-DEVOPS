@@ -445,12 +445,71 @@ echo$?
 () -----> pranthisis........
 {} -----> collibrase .......
 
+Docker
+//////////////
+to host our apps we need infrastructure
+we use vms/cloud computing to set up infra
+we isolate our service in OS of VM..
+becuse of isolation we end up setting up multiple vms/instances
+VMs/instances will be overprovisioned
+rsult in high cap ex and op =ex ...like regular maintaince,cost, collingpower,
+adminteam, operations///
+evry vm has os...
+VM are portable but bulky
+all are isolated 
+isolating services are IMP (Need OS)
+High availability achived by multiple instances/VMs
+portabily Matters or Eases the Deployment....
+
+ISOLATION WITHOUT OS
+////////////////////
+imagine multiple services running in same os but isolated.....
+
+CONTAINERS
+.............
+process running in a directory
+ipaddrss of the virtual machine 
 
 
+containers will be Kernal trick....
+but this process will be isolated...
+A directory Namespace , group 
+Necessary bi/lib/ in the Directory...tomcat and jdk need in this directory
 
 
+Every container that is running in the operating systems 
+all this containers are going to share the operating systems kernal and kernal will be
+provide the right resources to the process.
 
- 
+container treat like a Packge....
+need 
+code dependecies.........
+
+ VM VS CONTAINER
+...................
+container offer isolation not virtualization
+containers are OS virtuallization
+VMs are Hardware virtuallization
+vm need os
+contaieres dont need os.
+container uses Host os for compute.
+resurce
+
+what is docker
+.............
+container run time inverrnment 
+manages your containers.....
+
+docker engine ...> 
+.....................
+lots of automation will be done by docker engine 
+
+docker engine is a damean we can connect with RESTapi ..
+and client docker CLI......
+
+manage the conainer and image and network and data volumes.....
+main importnt is images pull images run containers..........
+
 
 
 
